@@ -14,17 +14,17 @@
             <h1>YING</h1>
             <nav class="navLinks">
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#banner">HOME</a></li>
+                    <li><a href="#aboutYing">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
         <!--ADD SEARCH BOTTON IN THE FUTURE-->
     </header>
 
-    <section class="banner">
+    <section class="banner" id="banner">
         <div>
             <p>Live Your Live to the Fullest!</p>
             <p>Don't Live in Regrets!</p>
@@ -33,11 +33,9 @@
 
     <main>
         <section>
-            <div class="about-container">
-                <div class="box">
-                    <div class="meImageBox">
-                        <img class="meImage-box" src="./Assets/images/YingPhoto.jpeg" alt="Image of Ying in Vegas" />
-                    </div>
+            <div class="about-container" id="aboutYing">
+                <div class="meImageBox">
+                    <img src="./Assets/images/YingPhoto.jpeg" alt="Image of Ying in Vegas" />
                 </div>
                 <div class="introduction-box"> <!--MAKE IT A BOX-->
                     <h2>Hi, it's Ying!</h2>
@@ -47,7 +45,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="projects" id="projects">
             <h2>PROJECTS</h2>
             <div class="projects-container">
                 <!--TODO EACH PROJECT DISPLAY AS A BOX WITH ONLY NAME ON COVER, DETAILS SHOW WHEN HOVER-->
@@ -66,7 +64,7 @@
         </section>
 
         <section>
-            <div class="contact">
+            <div class="contact" id="contact">
                 <h2>CONTACT</h2>
                 <p>Email</p>
                 <p>Comment</p>
@@ -77,7 +75,6 @@
     <footer>
         <!--TODO ADD PADDING TO FOOTER-->
         <h3>Made with ❤️ by Ying</h3>
-        <p>All right reserved ...</p>
     </footer>
 </body>
 </html>
