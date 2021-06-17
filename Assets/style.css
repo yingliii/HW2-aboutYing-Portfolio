@@ -74,16 +74,15 @@ main {
 }
 
 .introduction-box {
-    padding: 40px 50px;
+    padding: 20px 70px;
     margin: auto;
 }
 .introduction-box h2 {
     margin-bottom: 20px; 
-    font-size: 35px;
+    font-size: 20px;
 }
 .introduction-box p {
-    margin-bottom: 20px;
-    font-size: 25px; 
+    font-size: 16px; 
     text-align: justify;
 }
 
@@ -100,12 +99,18 @@ main {
     padding: 40px;
 }
 
+.project-box img {
+    width: 90%;
+}
 
 
 .contact {
     text-align: center;
     padding: 20px;
     background-color: rgb(241, 215, 215);
+}
+.contact h2 {
+    margin-bottom: 10px;
 }
 
 footer {
