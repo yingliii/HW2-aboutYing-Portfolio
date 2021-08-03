@@ -1,0 +1,48 @@
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.vh {
+    height: 100vh;
+}
+.mt-1{
+    margin-top: 150px;
+}
+.mt-2{
+    margin-top: 300px;
+}
+.mt-3{
+    margin-top: 80px;
+}
+.mt-4{
+    margin-top: 450px;
+}
+
+.cover-card{
+    width: 25%;
+    height: 100%;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgba(78, 76, 76, 0.137);
+    background-color: hsl(277, 5%, 52%);
+}
+.cover-card p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20vw;
+    color: hsl(38, 50%, 88%);
+}
+.cover-card i{
+    position: absolute;
+    font-size: 2.5vw;
+    margin: 40px 0 0 40px;
+    background-color: transparent;
+    border-color: transparent;
+    color: hsl(38, 50%, 88%);
+}
+.cover-card .home-btn:hover{
+    font-size: 3vw;
+}
