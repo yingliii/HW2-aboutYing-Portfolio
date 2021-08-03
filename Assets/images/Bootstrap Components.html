@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0141)file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here">
+  <link rel="stylesheet" href="./Bootstrap Components_files/bootstrap.min.css">
+  <title>Bootstrap Components</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#">Navbar scroll</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#">Action</a></li>
+              <li><a class="dropdown-item" href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Add a navbar here -->
+  <!-- https://getbootstrap.com/docs/4.5/components/navbar/ -->
+
+
+  <!-- create page margins -->
+  <main class="container-fluid my-3">
+    <!-- Add a jumbotron here -->
+    <!-- https://getbootstrap.com/docs/4.5/components/jumbotron/ -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Add a dismissible alert here -->
+    <!-- https://getbootstrap.com/docs/4.5/components/alerts/ -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Even this alert!</strong> Click the "x" to dismiss it.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <hr>
+
+    <h2>Fill Out This Form!</h2>
+    <!-- Add a form here -->
+    <!-- https://getbootstrap.com/docs/4.5/components/forms/ -->
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <hr>
+
+    <h2>Check Out This List!</h2>
+    <!-- Add a list with badges here -->
+    <!-- https://getbootstrap.com/docs/4.5/components/list-group -->
+    <ul class="list-group">
+      <li class="list-group-item">Cras justo odio</li>
+      <li class="list-group-item">Dapibus ac facilisis in</li>
+      <li class="list-group-item">Morbi leo risus</li>
+      <li class="list-group-item">Porta ac consectetur ac</li>
+      <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+
+    <hr>
+
+    <h2>Check Out This Card!</h2>
+    <!-- Add a card with a header, list, and footer here  -->
+    <!-- https://getbootstrap.com/docs/4.5/components/card/ -->
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    
+    <div class="card text-right" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="file:///Users/ying/BootCamp/cu-nyc-fsf-pt-05-2021-u-c/05-Third-Party-APIs/01-Activities/day.2/12-Stu_Bootstrap-Components/Unsolved/index.html#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+  </main>
+
+
+
+<script src="./Bootstrap Components_files/jquery.slim.min.js"></script>
+<script src="./Bootstrap Components_files/popper.min.js"></script>
+<script src="./Bootstrap Components_files/bootstrap.min.js"></script>
+
+</body></html>
