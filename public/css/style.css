@@ -10,14 +10,14 @@
   color: rgb(120, 104, 133);
 }
 .carousel-item {
-  height: 28rem;
+  height: 24rem;
   background: black;
   color: white;
   position: relative;
 }
 .carousel-container {
   position: absolute;
-  border: solid;
+  /* border: solid; */
   /* padding-top */
 }
 .carousel-overlay-image {
