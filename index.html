@@ -13,32 +13,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
   </head>
 
   <body>
+    <!-- =========================== navbar =========================== -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Y</a>
         <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- home -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
             <!-- projects -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Projects </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Project#</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Project#</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Project#</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">PROJECTS</a>
             </li>
             <!-- about -->
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about-ying">ABOUT</a>
             </li>
           </ul>
           <!-- contact -->
@@ -46,7 +38,7 @@
         </div>
       </div>
     </nav>
-    <!------------------------- carousel --------------------------->
+    <!-- =========================== carousel =========================== -->
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
       <!-- carousel-indicators -->
       <div class="carousel-indicators">
@@ -56,24 +48,24 @@
       </div>
       <!-- carousel-contents -->
       <div class="carousel-inner">
-        <div class="carousel-item active" data-interval="800">
-          <div class="carousel-overlay-image" style="background-image: url(./public/images/YingPhoto.jpeg)"></div>
+        <div class="carousel-item active" data-interval="1000">
+          <div class="carousel-overlay-image"></div>
           <div class="carousel-container">
             <h4>Intro</h4>
             <p>Brief Intro</p>
             <button class="btn btn-lg btn-primary"></button>
           </div>
         </div>
-        <div class="carousel-item" data-interval="800">
-          <div class="carousel-overlay-image" style="background-image: url(./public/images/YingPhoto.jpeg)"></div>
+        <div class="carousel-item" data-interval="1000">
+          <div class="carousel-overlay-image"></div>
           <div class="carousel-container">
             <h4>Check me out at:</h4>
             <p>Instagram | LinkedIn | Resume</p>
             <button class="btn btn-lg btn-primary"></button>
           </div>
         </div>
-        <div class="carousel-item" data-interval="800">
-          <div class="carousel-overlay-image" style="background-image: url(./public/images/YingPhoto.jpeg)"></div>
+        <div class="carousel-item" data-interval="1000">
+          <div class="carousel-overlay-image"></div>
           <div class="carousel-container">
             <h4>Current Project</h4>
             <p>What am I working on rn ...</p>
@@ -91,15 +83,47 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <!-------------------------- body ------------------------------>
-    <main></main>
+    <!-- ========================= main content ======================== -->
+    <main>
+      <!-- ========================= about me ========================= -->
+      <div class="about-me-container d-flex justify-content-center" id="about-ying" style="height: 400px">
+        <div class="card about-me-card mb-3 align-self-center h-75" style="max-width: 540px">
+          <div class="row g-0 h-100">
+            <div class="col-md-4 d-flex">
+              <img src="public/images/YingPhoto.jpeg" class="about-me-image img-fluid" alt="About me picture" />
+            </div>
+            <div class="col-md-8 d-flex">
+              <div class="card-body align-self-center">
+                <h5 class="card-title">About Me</h5>
+                <p class="card-text">INTRODUCTION COMING SOON.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========================= projects ======================== -->
+      <div class="projects-container" id="projects">
+        <h6 class="text-center p-3">PROJECTS</h6>
+        <div class="row row-cols-3 justify-content-center">
+          <div class="projects-card col">
+            <img src="/public/images/Introduction.jpeg" alt="project cover" class="projects-cover align-self-center" />
+            <div class="projects-card-content align-self-center"></div>
+          </div>
+          <div class="projects-card col">
+            <img src="/public/images/Introduction.jpeg" alt="project cover" class="projects-cover align-self-center" />
+            <div class="projects-card-content align-self-center"></div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer>
-      <!--TODO ADD PADDING TO FOOTER-->
-      <h3>By Ying</h3>
+      <h6 class="text-center">By Ying</h6>
     </footer>
 
     <!-- ============ bootstrap JS bundle =========== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/public/js/index.js"></script>
   </body>
 </html>

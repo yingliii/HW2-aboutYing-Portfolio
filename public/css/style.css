@@ -30,3 +30,34 @@
   background-size: cover;
   opacity: 0.8;
 }
+.about-me-container {
+  /* border: solid; */
+}
+.about-me-card {
+  /* border: solid; */
+  border: none;
+}
+.about-me-image {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  object-fit: cover;
+}
+.projects-container {
+}
+.projects-cover {
+  position: absolute;
+  /* border: solid; */
+  height: 100px;
+  width: 150px;
+  object-fit: cover;
+  padding: 5px;
+  background: white;
+}
+.projects-card-content {
+  background: rgb(190, 209, 233);
+  /* border: solid; */
+  height: 300px;
+  width: 280px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
